@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Privacy Blur",
+  "version": "1.0.0",
+  "description": "Blurs WhatsApp Web content for privacy. Hover to reveal.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+/* WhatsApp Privacy Blur Extension Styles */
+
+/* Base blur classes applied by JavaScript */
+.privacy-blur {
+  filter: blur(8px);
+  transition: filter 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Specific selectors for WhatsApp Web elements */
+
+/* Chat list sidebar (left panel) */
+#pane-side .privacy-blur {
+  filter: blur(8px);
+}
+
+#pane-side .privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Individual chat items in the list */
+div[role="listitem"] .privacy-blur {
+  filter: blur(8px);
+}
+
+div[role="listitem"] .privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Main chat area (conversation messages) */
+#main .privacy-blur {
+  filter: blur(8px);
+}
+
+#main .privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Message bubbles */
+.message-in .privacy-blur,
+.message-out .privacy-blur {
+  filter: blur(8px);
+}
+
+.message-in .privacy-blur:hover,
+.message-out .privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Media content (images, videos, stickers) */
+img.privacy-blur,
+video.privacy-blur {
+  filter: blur(12px);
+}
+
+img.privacy-blur:hover,
+video.privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Chat header */
+header .privacy-blur {
+  filter: blur(8px);
+}
+
+header .privacy-blur:hover {
+  filter: blur(0);
+}
+
+/* Ensure smooth transitions */
+* {
+  transition-property: filter;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Prevent layout shift during blur */
+.privacy-blur {
+  will-change: filter;
+}
+
+/* Status and profile images */
+img[alt*="profile"] {
+  filter: blur(8px);
+  transition: filter 0.2s ease-in-out;
+}
+
+img[alt*="profile"]:hover {
+  filter: blur(0);
+}
+
+/* Additional privacy for contact names and status */
+span[dir="auto"].privacy-blur {
+  filter: blur(8px);
+}
+
+span[dir="auto"].privacy-blur:hover {
+  filter: blur(0);
+}
