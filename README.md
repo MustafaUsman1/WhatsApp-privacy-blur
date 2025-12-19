@@ -24,13 +24,6 @@ A lightweight Chrome extension that **automatically blurs WhatsApp Web content**
 4. Click **Load unpacked** and select the project folder.
 5. Open **[https://web.whatsapp.com](https://web.whatsapp.com)**.
 
-### Using Replit (Optional)
-
-1. Create a new Repl.
-2. Add the files: `manifest.json`, `content.js`, `styles.css`.
-3. Download the files locally.
-4. Follow the **Load Unpacked** steps above.
-
 ---
 
 ## Usage
