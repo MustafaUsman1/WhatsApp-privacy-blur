@@ -1,7 +1,7 @@
 # WhatsApp Privacy Blur Extension
 
-A lightweight Chrome extension that **automatically blurs WhatsApp Web content** for privacy in public or work environments. **Hover to reveal**—content re-blurs when the mouse leaves.
-
+A lightweight Chrome extension that **automatically blurs WhatsApp Web content** for privacy in public or work environments. **Hover to reveal** content re-blurs when the mouse leaves.
+![Blurred View](Screenshots/WhatsappWebBlurred.png)
 ---
 
 ## Features
