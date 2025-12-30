@@ -3,7 +3,6 @@
 
 (function() {
   'use strict';
-
   // Configuration
   const CONFIG = {
     blurClass: 'privacy-blur',
@@ -16,7 +15,7 @@
       mainChat: '#main',
       messageContainer: 'div[data-testid="conversation-panel-body"]',
       messages: 'div[class*="message-"]',
-      
+    
       // Media elements
       images: 'img:not([src*="blob"])',
       videos: 'video',
@@ -229,3 +228,5 @@
   });
 
 })();
+
+//The End Folks
