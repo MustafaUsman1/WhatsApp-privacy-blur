@@ -3,7 +3,8 @@
 
 (function() {
   'use strict';
-  // Configuration
+  // Configuration for the extension
+  //CONFIG files
   const CONFIG = {
     blurClass: 'privacy-blur',
     selectors: {
